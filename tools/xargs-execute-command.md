@@ -3,3 +3,9 @@
 ```
 echo "abc\n def" | xargs -I % sh -c 'echo %'
 ```
+
+Output
+```
+abc
+def
+```
