@@ -26,4 +26,6 @@ export PATH=$(brew --prefix openvpn)/sbin:$PATH
 
 # Connect to vpn server
 openvpn --config CLIENTNAME.ovpn
+
+# Note: this will connect to UDP port 1194 on the VPN machine. Make sure the security group allows this port 
 ```
